@@ -66,8 +66,8 @@ class _HomeState extends State<Home> {
                 builder: (context, themeProvider, child) {
                   return Icon(
                     themeProvider.isSelected ? Icons.nights_stay : Icons.sunny,
-                    color: Colors.orange,
-                    // Icons.nights_stay,
+                    color:
+                        themeProvider.isSelected ? Colors.white : Colors.orange,
                     size: 250,
                   );
                 },
